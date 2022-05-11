@@ -1,0 +1,50 @@
+body, main, ul, li, h2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+} 
+
+
+body {
+    background-image: url(https://www.teahub.io/photos/full/70-705405_pink-fluffy-clouds-4k-hd-desktop-wallpaper.jpg);
+    height: 100vh;
+}
+
+h2 {
+    color: white;
+    font-weight:800;
+}
+
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    margin: 0 auto;
+}
+
+main ul {
+    list-style: none;
+    width: 400px;
+    margin: 0 auto;
+}
+
+main ul li {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    margin: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+main ul li span {
+    width: 40%;
+}
+
+main ul:last-child li {
+    text-align: center;
+    background-color: #6959CD;
+}
